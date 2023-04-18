@@ -1,0 +1,24 @@
+.productsList {
+
+  width: 1264px;
+  height: 40px;
+
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+
+  &__item {
+    border: 1px solid $color-grey10;
+    min-width: 211px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: $color-grey2;
+    text-transform: uppercase;
+    font-weight: 400;
+    cursor: pointer;
+  }
+}

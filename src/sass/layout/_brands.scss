@@ -1,0 +1,36 @@
+.brands {
+
+  &__title {
+    text-align: center;
+    margin: 3rem 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: $color-primary;
+  }
+
+  &__container {
+    display: flex;
+    width: 1277px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  &__box {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 211px;
+    height: 211px;
+    border-radius: 50%;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.13);
+
+    &-img {
+      cursor: pointer;
+    }
+  }
+
+
+}
+

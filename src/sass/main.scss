@@ -12,6 +12,7 @@
 // COMPONENTS
 @import './components/list';
 @import './components/button';
+@import './components/ProductsRelation';
 
 // LAYOUT
 @import './layout/footer/footer';
@@ -20,12 +21,14 @@
 @import './layout/footer/information';
 @import './layout/footer/payment';
 @import './layout/footer/about';
-
 @import './layout/header/marketing';
 @import './layout/header/search';
 @import './layout/header/promotion';
+@import './layout/categories';
+@import './layout/ProducsList';
+@import './layout/partners.scss';
+@import './layout/brands';
 
-
-// PAGES
 @import './pages/home';
+
 

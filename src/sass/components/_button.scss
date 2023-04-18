@@ -56,5 +56,33 @@
     }
   }
 
+  &__partners {
+
+    &,
+    &:link,
+    &:visited {
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 10px;
+      transition: all .2s;
+      border: none;
+      width: 131px;
+      height: 48px;
+      margin-top: 1.2rem;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 900;
+      line-height: 20px;
+      text-align: center;
+      color: $color-white;
+      background-color: $color-primary;
+      text-transform: uppercase;
+
+      &:hover {
+        background-color: darken($color-primary, 5%);
+      }
+    }
+  }
+
 
 }

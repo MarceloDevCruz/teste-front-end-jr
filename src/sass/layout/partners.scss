@@ -1,0 +1,42 @@
+.partners {
+
+  width: 1264px;
+  display: flex;
+  margin: 6rem auto;
+  justify-content: space-evenly;
+
+  &__container {
+
+    width: 574px;
+    height: 350px;
+    background: linear-gradient(180deg, rgba($color-black, 0) 0%,
+  rgba($color-black, 0.9) 100%), $color-white
+  url('../assets/main/parceiros_banner.png')
+  no-repeat center center;
+  background-size: cover;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+
+    &-title {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 60px;
+      color: $color-white;
+    }
+
+    &-text-container {
+      max-width: 300px;
+
+      &-paragraph {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        color: $color-white;
+      }
+    }
+  }
+}

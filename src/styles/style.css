@@ -47,8 +47,17 @@ input {
 .ul-text-color-primary {
   color: #f71963 !important; }
 
-.ul-display-hidden {
-  display: hidden !important; }
+.ul-background-color-white {
+  background-color: #ffffff !important; }
+
+.ul-box-shadow {
+  box-shadow: 0px 2px 9px 0px #00000038 !important; }
+
+.ul-font-weight-700 {
+  font-weight: 700 !important; }
+
+.ul-height-products-284px {
+  height: 284px !important; }
 
 .list__header {
   display: flex;
@@ -106,6 +115,45 @@ input {
   text-transform: uppercase; }
   .btn__footer:hover, .btn__footer:link:hover, .btn__footer:visited:hover {
     background-color: #ee0855; }
+
+.btn__partners, .btn__partners:link, .btn__partners:visited {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  transition: all .2s;
+  border: none;
+  width: 131px;
+  height: 48px;
+  margin-top: 1.2rem;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #f71963;
+  text-transform: uppercase; }
+  .btn__partners:hover, .btn__partners:link:hover, .btn__partners:visited:hover {
+    background-color: #ee0855; }
+
+.productsRelation {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  line-height: 45px;
+  color: #f71963;
+  text-align: center;
+  margin-top: 4rem; }
+  .productsRelation::after, .productsRelation::before {
+    content: "";
+    display: block;
+    flex-grow: 1;
+    height: 1px;
+    background-color: #9f9f9f; }
+  .productsRelation::after {
+    margin: 0 25rem 0 3rem; }
+  .productsRelation::before {
+    margin: 0 3rem 0 25rem; }
 
 .footer {
   min-height: 325px;
@@ -315,3 +363,115 @@ input {
     color: #ffffff;
     font-size: 36px;
     line-height: 54px; }
+
+.categories {
+  width: 1277px;
+  height: 174px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1.5rem; }
+  .categories__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .categories__container-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 128px;
+      height: 128px;
+      border-radius: 10px;
+      background-color: #f4f4f4;
+      box-shadow: 0px 4px 11px 0px #00000021;
+      cursor: pointer; }
+    .categories__container-text {
+      margin-top: 1.2rem;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #4e4e4e; }
+
+.productsList {
+  width: 1264px;
+  height: 40px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center; }
+  .productsList__item {
+    border: 1px solid #BDBDBD;
+    min-width: 211px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #3b3b3b;
+    text-transform: uppercase;
+    font-weight: 400;
+    cursor: pointer; }
+
+.partners {
+  width: 1264px;
+  display: flex;
+  margin: 6rem auto;
+  justify-content: space-evenly; }
+  .partners__container {
+    width: 574px;
+    height: 350px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), #ffffff url("../assets/main/parceiros_banner.png") no-repeat center center;
+    background-size: cover;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem; }
+    .partners__container-title {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 60px;
+      color: #ffffff; }
+    .partners__container-text-container {
+      max-width: 300px; }
+      .partners__container-text-container-paragraph {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #ffffff; }
+
+.brands__title {
+  text-align: center;
+  margin: 3rem 0;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  color: #f71963; }
+
+.brands__container {
+  display: flex;
+  width: 1277px;
+  margin: 0 auto;
+  justify-content: space-between; }
+
+.brands__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 211px;
+  height: 211px;
+  border-radius: 50%;
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.13); }
+  .brands__box-img {
+    cursor: pointer; }
+
+.home__see-all {
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22.5px;
+  color: #3f3f40;
+  cursor: pointer; }

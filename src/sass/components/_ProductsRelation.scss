@@ -1,0 +1,26 @@
+.productsRelation {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  line-height: 45px;
+  color: $color-primary;
+  text-align: center;
+  margin-top: 4rem;
+
+  &::after,
+  &::before {
+    content: "";
+    display: block;
+    flex-grow: 1;
+    height: 1px;
+    background-color: $color-grey5;
+  }
+
+  &::after {
+    margin: 0 25rem 0 3rem;
+  }
+
+  &::before {
+    margin: 0 3rem 0 25rem;
+  }
+}
