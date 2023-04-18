@@ -3,6 +3,7 @@ import { baseURL } from '../services/api';
 import axios from 'axios';
 import { Products } from '../types/products';
 import Header from '../components/header/Header';
+import Footer from '../components/footer/Footer';
 
 const Home = () => {
   const [data, setData] = useState<Products[] | null>(null);
@@ -21,6 +22,7 @@ const Home = () => {
   return (
     <div>
       <Header />
+      <Footer />
     </div>
   );
 };

@@ -14,8 +14,13 @@
 @import './components/button';
 
 // LAYOUT
-@import './layout/footer';
-@import './layout/header/header';
+@import './layout/footer/footer';
+@import './layout/footer/copyright';
+@import './layout/footer/footerPromotion';
+@import './layout/footer/information';
+@import './layout/footer/payment';
+@import './layout/footer/about';
+
 @import './layout/header/marketing';
 @import './layout/header/search';
 @import './layout/header/promotion';

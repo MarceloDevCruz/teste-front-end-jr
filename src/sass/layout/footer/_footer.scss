@@ -1,0 +1,16 @@
+.footer {
+  min-height: 325px;
+  background-color: $color-grey1;
+  width: 100%;
+  border-bottom: 1px solid $color-white;
+  display: flex;
+
+  &__container {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+}

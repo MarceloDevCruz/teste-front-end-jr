@@ -6,7 +6,7 @@ import Promotion from './Promotion';
 
 const Header = () => {
   return (
-    <header className="header">
+    <header>
       <Marketing />
       <SearchContainer />
       <MenuList />

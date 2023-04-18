@@ -1,0 +1,29 @@
+.copyright {
+
+  background-color: $color-grey1;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 93px;
+
+  &__container {
+
+    width: 698px;
+
+    &-text {
+      font-size: 10px;
+      font-weight: 400;
+      color: $color-white;
+      line-height: 13px;
+      text-transform: uppercase;
+    }
+  }
+
+  &__logo {
+
+    &-img {
+      margin: 0 1rem;
+    }
+  }
+}
