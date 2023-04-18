@@ -1,0 +1,27 @@
+.marketing {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+
+  &__container {
+    display: flex;
+    padding: .5rem;
+
+    &-vector {
+      margin-right: .7rem;
+    }
+
+    &-text {
+
+      font-weight: 500;
+      color: $color-grey5;
+
+      &-colored {
+        font-weight: 600;
+        color: $color-primary;
+      }
+    }
+  }
+}

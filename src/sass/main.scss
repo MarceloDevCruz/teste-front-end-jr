@@ -10,11 +10,15 @@
 @import './base/utilities';
 
 // COMPONENTS
-
+@import './components/list';
+@import './components/button';
 
 // LAYOUT
 @import './layout/footer';
-@import './layout/header';
+@import './layout/header/header';
+@import './layout/header/marketing';
+@import './layout/header/search';
+@import './layout/header/promotion';
 
 
 // PAGES

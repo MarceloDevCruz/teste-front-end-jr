@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { baseURL } from '../services/api';
 import axios from 'axios';
 import { Products } from '../types/products';
+import Header from '../components/header/Header';
 
 const Home = () => {
   const [data, setData] = useState<Products[] | null>(null);
@@ -17,7 +18,11 @@ const Home = () => {
 
   console.log(data);
 
-  return <div>home test</div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 };
 
 export default Home;
