@@ -30,11 +30,32 @@ const Home = () => {
         <Categories />
         <ProductsRelation />
         <ProductsList />
+        <section className="home__products">
+          {data &&
+            data.map((product) => (
+              <Product
+                productName={product.productName}
+                descriptionShort={product.descriptionShort}
+                photo={product.photo}
+                price={product.price}
+              />
+            ))}
+        </section>
         <Partners />
         <ProductsRelation />
         <p className="home__see-all">Ver Todos</p>
 
-        <Product />
+        <section className="home__products">
+          {data &&
+            data.map((product) => (
+              <Product
+                productName={product.productName}
+                descriptionShort={product.descriptionShort}
+                photo={product.photo}
+                price={product.price}
+              />
+            ))}
+        </section>
 
         <section className="partners">
           <div className="partners__container ul-height-products-284px">
@@ -61,6 +82,17 @@ const Home = () => {
 
         <ProductsRelation />
         <p className="home__see-all">Ver Todos</p>
+        <section className="home__products">
+          {data &&
+            data.map((product) => (
+              <Product
+                productName={product.productName}
+                descriptionShort={product.descriptionShort}
+                photo={product.photo}
+                price={product.price}
+              />
+            ))}
+        </section>
       </main>
       <Footer />
     </>

@@ -1,0 +1,53 @@
+.product {
+
+  border-radius: 10px;
+  box-shadow: 0px 3px 19px 0px #00000038;
+  width: 270px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem 0;
+  padding: 2px 14px;
+
+  &__title {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22.5px;
+    color: $color-grey4;
+    margin: .5rem 0;
+  }
+
+  &__price {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #808080;
+    margin: .5rem 0;
+
+    &-promotion {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 30px;
+      color: #3F3F40;
+      margin: .5rem 0;
+    }
+
+    &-parcel {
+      line-height: 18px;
+      color: #3F3F40;
+      font-weight: 400;
+      font-size: 12px;
+      margin: .5rem 0;
+    }
+  }
+
+  &__freight {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color:#F71963;
+    margin: .5rem 0;
+  }
+}

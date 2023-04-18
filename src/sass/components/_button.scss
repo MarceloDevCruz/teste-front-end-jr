@@ -84,5 +84,32 @@
     }
   }
 
+  &__products {
+
+    &,
+    &:link,
+    &:visited {
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 4px;
+      transition: all .2s;
+      border: none;
+      width: 245px;
+      height: 44px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 20px;
+      text-align: center;
+      color: $color-white;
+      background-color: $color-primary;
+      text-transform: uppercase;
+
+      &:hover {
+        background-color: darken($color-primary, 5%);
+      }
+    }
+  }
+
 
 }

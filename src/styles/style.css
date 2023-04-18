@@ -136,6 +136,25 @@ input {
   .btn__partners:hover, .btn__partners:link:hover, .btn__partners:visited:hover {
     background-color: #ee0855; }
 
+.btn__products, .btn__products:link, .btn__products:visited {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  transition: all .2s;
+  border: none;
+  width: 245px;
+  height: 44px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #f71963;
+  text-transform: uppercase; }
+  .btn__products:hover, .btn__products:link:hover, .btn__products:visited:hover {
+    background-color: #ee0855; }
+
 .productsRelation {
   display: flex;
   align-items: center;
@@ -468,6 +487,47 @@ input {
   .brands__box-img {
     cursor: pointer; }
 
+.product {
+  border-radius: 10px;
+  box-shadow: 0px 3px 19px 0px #00000038;
+  width: 270px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem 0;
+  padding: 2px 14px; }
+  .product__title {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22.5px;
+    color: #4e4e4e;
+    margin: .5rem 0; }
+  .product__price {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #808080;
+    margin: .5rem 0; }
+    .product__price-promotion {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 30px;
+      color: #3F3F40;
+      margin: .5rem 0; }
+    .product__price-parcel {
+      line-height: 18px;
+      color: #3F3F40;
+      font-weight: 400;
+      font-size: 12px;
+      margin: .5rem 0; }
+  .product__freight {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #F71963;
+    margin: .5rem 0; }
+
 .home__see-all {
   text-align: center;
   font-weight: 700;
@@ -475,3 +535,12 @@ input {
   line-height: 22.5px;
   color: #3f3f40;
   cursor: pointer; }
+
+.home__products {
+  width: 1277px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 3%; }
