@@ -1,0 +1,15 @@
+.pagination {
+
+  &__right {
+    position: absolute;
+    right: -6%;
+    cursor: pointer;
+  }
+
+  &__left {
+    position: absolute;
+    left: -6%;
+    cursor: pointer;
+  }
+
+}

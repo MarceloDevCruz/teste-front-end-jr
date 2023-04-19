@@ -11,6 +11,7 @@ import Brands from '../components/Brands';
 import Products from '../components/Products';
 import { ProductsType } from '../types/products';
 import PartnersProducts from '../components/PartnersProducts';
+import Pagination from '../components/Pagination';
 
 const Home = () => {
   const [data, setData] = useState<ProductsType[] | null>(null);
@@ -48,6 +49,3 @@ const Home = () => {
 };
 
 export default Home;
-function setData(products: any) {
-  throw new Error('Function not implemented.');
-}
