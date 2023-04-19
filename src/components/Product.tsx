@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { BsX } from 'react-icons/bs';
 
 interface Props {
   productName: string;
@@ -46,6 +47,10 @@ const Product = ({ productName, descriptionShort, photo, price }: Props) => {
       {clicked && (
         <div className="home__opacity">
           <div className="home__popup">
+            <BsX
+              className="home__popup-btn"
+              onClick={() => setClicked(!clicked)}
+            />
             <img src={photo} alt={productName} className="home__popup-img" />
             <div className="home__popup-content">
               <h3 className="home__popup-content-title">{productName}</h3>

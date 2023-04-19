@@ -20,6 +20,15 @@
     position: relative;
   }
 
+  &__opacity {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba($color-black, .8);
+  }
+
   &__popup {
     height: 300px;
     width: 769px;
@@ -32,6 +41,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    &-btn {
+      position: absolute;
+      top: 5%;
+      right: 5%;
+      font-size: 3rem;
+      color: #041E50;
+      cursor: pointer;
+    }
 
     &-content {
 

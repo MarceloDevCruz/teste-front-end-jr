@@ -185,6 +185,7 @@ input {
   cursor: pointer; }
 
 .footer {
+  margin-top: 10rem;
   min-height: 325px;
   background-color: #2a2a2a;
   width: 100%;
@@ -563,6 +564,14 @@ input {
   gap: 3%;
   position: relative; }
 
+.home__opacity {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8); }
+
 .home__popup {
   height: 300px;
   width: 769px;
@@ -574,6 +583,13 @@ input {
   display: flex;
   justify-content: center;
   align-items: center; }
+  .home__popup-btn {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 3rem;
+    color: #041E50;
+    cursor: pointer; }
   .home__popup-content-title {
     letter-spacing: 5%;
     font-size: 20px;
