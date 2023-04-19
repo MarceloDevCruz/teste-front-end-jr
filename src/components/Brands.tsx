@@ -1,5 +1,6 @@
 import React from 'react';
 import VtexLogo from '../assets/main/VtexLogo.svg';
+import Next from '../assets/main/next.svg';
 
 const Brands = () => {
   return (
@@ -20,6 +21,7 @@ const Brands = () => {
         </div>
         <div className="brands__box">
           <img src={VtexLogo} alt="Vtex Logo" className="brands__box-img" />
+          <img src={Next} alt="Next Button" className="brands__box-img-btn" />
         </div>
       </div>
     </section>
